@@ -1,0 +1,155 @@
+.Home-container {
+  background: url("../../assets/FirstHomepageImages/Isolation_Mode.png");
+  width: 100%;
+  background-size: contain;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.Eclips {
+  .eclip1 {
+    position: absolute;
+    left: 0;
+  }
+  .eclip2 {
+    position: absolute;
+    right: 0;
+  }
+}
+
+//Hero section styling
+
+.Herosection-container {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  .contant-place {
+    // margin-top: 1re;
+    margin-left: 10rem;
+    position: relative;
+    hr {
+      position: absolute;
+      width: 8rem;
+      top: 2rem;
+      left: -0.2rem;
+      border: 2px solid rgba(187, 0, 255, 0.121);
+      border-radius: 10px;
+    }
+    h1 {
+      color: #fff;
+      font-size: 3.5rem;
+      margin-top: 2rem;
+    }
+    .Star-with-content {
+      margin-top: -4rem;
+      display: flex;
+      p {
+        margin-left: 0.7rem;
+        margin-top: 2.8rem;
+        font-weight: 300;
+      }
+    }
+    .home-page-buttons {
+      display: flex;
+      margin-top: 1rem;
+      margin-left: -1rem;
+      .blue {
+        button {
+          background-color: #3ddeed;
+          border: none;
+          border-radius: 3px;
+          width: 8rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          position: relative;
+          color: black;
+          // box-shadow: rgba();
+          box-shadow: rgba(61, 222, 237, 0.17) 0px 7px 29px 0px;
+          transition: 0.5s ease-in-out;
+        }
+        button:hover {
+          background-color: transparent;
+          color: white;
+          border: 1px solid #3ddeed;
+          img {
+            background-color: #3ddeed;
+            border-radius: 50px;
+          }
+        }
+      }
+      button {
+        padding: 0.8rem;
+        width: 7rem;
+        height: 3rem;
+        border-radius: 3px;
+        border: 1px solid #ffffff3a;
+        background-color: transparent;
+        color: white;
+        font-weight: 500;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        transition: 0.5s ease-in-out;
+        img {
+          width: 1.5rem;
+          margin-bottom: 0.1rem;
+        }
+      }
+      button:hover{
+        color: #3ddeed;
+        border:1px solid #3ddeed;
+      }
+    }
+    .socialmedia {
+      margin-top: 2rem;
+      position: relative;
+      .socialmedia-links {
+        display: flex;
+        margin-left: -1.5rem;
+        img {
+          margin-top: -0.5rem;
+          margin-left: 1rem;
+          height: 2.3rem;
+        }
+      }
+    }
+  }
+  p {
+    color: #fff;
+  }
+  .Heroimage-section {
+    .hero-image {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-right: 7rem;
+      margin-top: -1rem;
+      img {
+        height: 70vh;
+      }
+    }
+    hr {
+      margin-top: 2px;
+      border: 2px solid rgba(187, 0, 255, 0.186);
+      width: 47rem;
+      margin-right: 0rem;
+    }
+  }
+  .providens {
+    display: flex;
+    margin-left: 17rem;
+    div {
+      display: flex;
+      margin-left: 2rem;
+      cursor: pointer;
+      img {
+        margin-right: 0.5rem;
+      }
+      p {
+        font-weight: 300;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

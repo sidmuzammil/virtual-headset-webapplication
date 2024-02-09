@@ -1,0 +1,54 @@
+.secondpage-container {
+  // margin-top:rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  color: white;
+  .Hero-image-section {
+    .blur-image {
+      position: absolute;
+      img {
+        z-index: -999;
+      }
+    }
+    .Hero-image {
+      img {
+        height: 61rem;
+        margin-top: -5rem;
+      }
+    }
+  }
+}
+
+// content section stayling
+
+
+.secondPage-contentContainer{
+  margin-right: 6rem;
+
+  h1{
+    font-size: 3.2rem;
+    // font-weight: 700;
+    margin-top: 10.5rem;
+  }
+  .Feature-container{
+    // position: relative;
+    display: flex;
+    
+
+    .first-row div{
+      display: flex;
+      margin-right: 2rem;
+    }
+    .second-row div{
+      display: flex;
+    }
+    img{
+      margin-top: -1.5rem;
+      margin-right: 1rem;
+    }
+    p{
+      font-size: .8rem;
+    }
+  }
+
+}
