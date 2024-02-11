@@ -3,21 +3,27 @@ import gametwo from "../../assets/forthSectionImages/gametwo.svg"
 import gamethree from "../../assets/forthSectionImages/gamethree.svg"
 import gamefour from "../../assets/forthSectionImages/gamefour.svg"
 
-export default DATAS=[
+ const DATAS=[
     {
-        image:{gameone},
+        id:1,
+        image:gameone,
         description:"Horizon : Call of the mountain"
     },
     {
-        image:{gametwo},
+        id:2,
+        image:gametwo,
         description:"Half - Life : ALYX"
     },
     {
-        image:{gamethree},
+        id:3,
+        image:gamethree,
         description:"Fight Night Champion"
     },
     {
-        image:{gamefour},
+        id:4,
+        image:gamefour,
         description:"Call of Duty : Coold War"
     },
 ]
+
+export default DATAS

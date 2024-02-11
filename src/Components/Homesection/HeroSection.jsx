@@ -8,8 +8,8 @@ import sportsIcon from "../../assets/FirstHomepageImages/sportsIcon.svg";
 import twitter from "../../assets/FirstHomepageImages/twitter.svg";
 import instagram from "../../assets/FirstHomepageImages/instagram.svg";
 import discod from "../../assets/FirstHomepageImages/discord.svg";
-import { delay, motion } from "framer-motion";
 import facebook from "../../assets/FirstHomepageImages/facebook.svg";
+import { delay, motion } from "framer-motion";
 
 const HeroSection = () => {
   const textVarients = {

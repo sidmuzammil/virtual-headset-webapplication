@@ -1,0 +1,46 @@
+.fifthPage-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1{
+    font-size: 3rem;
+  }
+  .wrapper {
+    width: 50vw;
+    .listing {
+      padding: 1rem;
+      margin: .5rem;
+      background-color: #ffffff0e;
+      border-radius: 8px;
+      .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-size: 1rem;
+        }
+        
+      }
+      p{
+        margin-top: -.2rem;
+        font-size: .8rem;
+        font-weight: 200;
+    }
+    .content{
+      color: #fff;
+      max-height: 0;
+      overflow: hidden;
+      // transition: all 0.5s cubic-bezier(0,1,0,1);
+      transition: .5 ease-in-out;
+    }
+    .content-show{
+      height: auto;
+      max-height: 9999px;
+      transition: all 0.5s cubic-bezier(0,1,0,1);
+    }
+    }
+  }
+}
